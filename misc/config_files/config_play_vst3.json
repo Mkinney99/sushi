@@ -15,10 +15,10 @@
             ],
             "plugins" : [
                 {
-                    "path" : "/usr/lib/lxvst/mda-vst3.vst3",
-                    "name" : "jx10",
+                    "path" : "/plugins/nonlinearBiquad.vst3",
+                    "name" : "NonlinearBiquad",
                     "type"   : "vst3x",
-                    "uid" : "mda JX10"
+                    "uid" : "NonlinearBiquad"
                 }
             ]
         }
@@ -36,7 +36,7 @@
             {
                 "port": 0,
                 "channel": "all",
-                "plugin": "jx10"
+                "plugin": "NonlinearBiquad"
             }
         ]
     }
